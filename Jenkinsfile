@@ -9,9 +9,9 @@ pipeline {
 
     stage('test') {
       parallel {
-        stage('test intégration') {
+        stage('test intÃ©gration') {
           steps {
-            echo 'test d\'intégration'
+            echo 'test d\'intÃ©gration'
           }
         }
 
